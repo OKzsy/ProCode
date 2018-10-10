@@ -23,8 +23,6 @@ def SearchFiles(dirPath, partFileInfo, recursive=False):
                 fileList += SearchFiles(mPath, partFileInfo)  # 将返回的符合文件列表追加到上层
             else:
                 pass
-        else:
-            pass
     return fileList
 
 

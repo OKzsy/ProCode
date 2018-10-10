@@ -4,7 +4,7 @@
 
 
 
-count = 0
+count = 10
 
 
 def move(source, target):
